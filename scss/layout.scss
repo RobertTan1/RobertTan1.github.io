@@ -1127,6 +1127,31 @@ b, strong{
 	}
 }
 
+.content_60{
+	background:$bg_dark no-repeat 50% 50%;
+	// background:$bg_dark url(../i/IEbacksplash.jpg) no-repeat 50% 50%;
+	// background-size:cover;
+	// @media#{$retina}{
+	// 	background-image:url(../i/content_17_bg@2x.jpg);
+	// }
+	// @media(max-width:359.98px){
+	// 	.block_tip{
+	// 		padding-left:20px;
+	// 		padding-right:20px;
+	// 	}
+	// }
+
+	background:$bg_dark no-repeat 50% 50%;
+	background-size:cover;
+	@media(max-width:991.98px){
+		.text-adaptive{
+			margin-top:15px;
+		}
+	}
+}
+
+// IEbacksplash.jpg
+
 .content_18{
 	.opening_tabs{
 		.tab_opener{
