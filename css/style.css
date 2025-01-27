@@ -4612,3 +4612,6 @@ b, strong {
     min-width: 50px;
   }
 }
+.logo {
+  font-family: serif;
+}
